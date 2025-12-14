@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="+ RESULT_FILE_NAME to settings">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="fix utest">
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/schemas/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +60,7 @@
     "Makefile Target.utest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.app.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -74,6 +77,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms_exam/src" />
       <recent name="$PROJECT_DIR$/algorithms_exam" />
     </key>
   </component>
@@ -232,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765741647494</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix utest">
+      <option name="closed" value="true" />
+      <created>1765742279042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765742279042</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,13 +257,14 @@
     <MESSAGE value="init settings.yml" />
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="+ RESULT_FILE_NAME to settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ RESULT_FILE_NAME to settings" />
+    <MESSAGE value="fix utest" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix utest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
+          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

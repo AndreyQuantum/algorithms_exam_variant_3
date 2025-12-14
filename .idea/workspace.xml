@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="fix make utest">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="add pytest">
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/tests/catalog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/tests/new_items.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +57,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Makefile Target.lint.executor": "Run",
     "Makefile Target.utest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -72,7 +80,7 @@
       <recent name="$PROJECT_DIR$/algorithms_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.lint">
+  <component name="RunManager" selected="Python.app">
     <configuration name="lint" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="lint" workingDirectory="" arguments="">
         <envs />
@@ -85,8 +93,32 @@
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_exam/src/configs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Makefile Target.lint" />
         <item itemvalue="Makefile Target.utest" />
       </list>
@@ -131,14 +163,41 @@
       <option name="project" value="LOCAL" />
       <updated>1765740684567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1765740953071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765740953071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1765741067171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741067171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add pytest">
+      <option name="closed" value="true" />
+      <created>1765741119142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741119142</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <MESSAGE value="init" />
     <MESSAGE value="move some tests" />
     <MESSAGE value="fix make utest" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix make utest" />
+    <MESSAGE value="add README.md" />
+    <MESSAGE value="add pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pytest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

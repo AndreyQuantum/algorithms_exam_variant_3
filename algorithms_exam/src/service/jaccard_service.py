@@ -7,7 +7,9 @@ class JaccardService:
         if not first_shingles and not second_shingles:
             return 1.0
         if second_shingles:
-            result = len(first_shingles & second_shingles) / len(first_shingles | second_shingles)
+            result = len(first_shingles & second_shingles) / len(
+                first_shingles | second_shingles
+            )
             return round(result, 2)
         return 0.0
 

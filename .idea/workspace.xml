@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="add fileservice">
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_file_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/catalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/new_items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yml" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="rename ProductEntity to Product throughout the codebase and update related tests">
+      <change afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Makefile Target.lint.executor": "Run",
+    "Makefile Target.run.executor": "Run",
     "Makefile Target.utest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.pytest in andrey-zelentsov.executor": "Run",
@@ -94,9 +91,15 @@
       <recent name="$PROJECT_DIR$/algorithms_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in andrey-zelentsov">
+  <component name="RunManager" selected="Makefile Target.run">
     <configuration name="lint" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="lint" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
@@ -173,6 +176,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Makefile Target.run" />
       <item itemvalue="Makefile Target.lint" />
       <item itemvalue="Makefile Target.utest" />
       <item itemvalue="Python.app" />
@@ -181,6 +185,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.utest" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.app" />
@@ -291,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765743197905</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor file handling logic and add tests for FileService">
+      <option name="closed" value="true" />
+      <created>1765744116159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765744116159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rename ProductEntity to Product throughout the codebase and update related tests">
+      <option name="closed" value="true" />
+      <created>1765744247051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765744247051</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,7 +327,9 @@
     <MESSAGE value="+ RESULT_FILE_NAME to settings" />
     <MESSAGE value="fix utest" />
     <MESSAGE value="add fileservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fileservice" />
+    <MESSAGE value="refactor file handling logic and add tests for FileService" />
+    <MESSAGE value="rename ProductEntity to Product throughout the codebase and update related tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename ProductEntity to Product throughout the codebase and update related tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

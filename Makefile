@@ -14,4 +14,4 @@ lint:
 
 run:
 	@echo "run algorithm"
-	python3 $(ROOT_PATH)/main.py
+	poetry run python3 $(ROOT_PATH)/main.py

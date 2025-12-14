@@ -64,6 +64,5 @@ jobs:
           poetry config virtualenvs.create false
           poetry install --no-interaction --no-ansi  --no-root
 
-      - name: Run flake8 (PEP8)
-        run: |
-          flake8 .
+      - name: Run PEP8 check
+        run: make lint

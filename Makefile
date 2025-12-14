@@ -7,3 +7,7 @@ utest:
 format:
 	@echo "formating"
 	poetry run ruff format $(ROOT_PATH)
+
+lint:
+	@echo "check PEP8"
+	poetry run ruff check .

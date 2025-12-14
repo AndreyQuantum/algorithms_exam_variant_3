@@ -15,3 +15,8 @@ lint:
 run:
 	@echo "run algorithm"
 	poetry run python3 $(ROOT_PATH)/main.py
+
+install:
+	@echo " Creating virtual environment using pyenv and poetry"
+	@poetry install
+	@poetry shell

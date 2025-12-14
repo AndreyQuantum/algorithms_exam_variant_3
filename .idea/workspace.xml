@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="rename ProductEntity to Product throughout the codebase and update related tests">
-      <change afterPath="$PROJECT_DIR$/task.md" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly">
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
@@ -312,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765744247051</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly">
+      <option name="closed" value="true" />
+      <created>1765748004064</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765748004064</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,7 +336,8 @@
     <MESSAGE value="add fileservice" />
     <MESSAGE value="refactor file handling logic and add tests for FileService" />
     <MESSAGE value="rename ProductEntity to Product throughout the codebase and update related tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename ProductEntity to Product throughout the codebase and update related tests" />
+    <MESSAGE value="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

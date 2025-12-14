@@ -1,8 +1,8 @@
-ROOT_PATH = poetry_python_template/src
+ROOT_PATH = algorithms_exam/src
 
 utest:
 	@echo "Run unit tests"
-	poetry
+	poetry run pytest algorithms_exam/tests
 
 format:
 	@echo "formating"

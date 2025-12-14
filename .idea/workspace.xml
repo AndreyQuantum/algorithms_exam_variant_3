@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="update workspace.xml with changes related to task management and dependency setup">
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="add JaccardService and StringService with normalization logic and associated tests">
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_jaccard_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765748838831</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add JaccardService and StringService with normalization logic and associated tests">
+      <option name="closed" value="true" />
+      <created>1765750934304</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765750934304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,7 +354,9 @@
     <MESSAGE value="rename ProductEntity to Product throughout the codebase and update related tests" />
     <MESSAGE value="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly" />
     <MESSAGE value="update workspace.xml with changes related to task management and dependency setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml with changes related to task management and dependency setup" />
+    <MESSAGE value="add string service for normalization and tests" />
+    <MESSAGE value="add JaccardService and StringService with normalization logic and associated tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JaccardService and StringService with normalization logic and associated tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

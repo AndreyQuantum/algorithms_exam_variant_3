@@ -11,3 +11,7 @@ format:
 lint:
 	@echo "check PEP8"
 	poetry run ruff check .
+
+run:
+	@echo "run algorithm"
+	python3 $(ROOT_PATH)/main.py

@@ -5,7 +5,7 @@ description = ""
 authors = [
     {name = "AndreyQuantum",email = "zelentsov1254@gmail.com"}
 ]
-readme = "README.md"
+readme = "ReadMe.md"
 requires-python = ">=3.12"
 dependencies = [
     "dynaconf (>=3.2.12,<4.0.0)",

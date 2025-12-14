@@ -1,2 +1,6 @@
 SIMILARITY_THRESHOLD: 0.8
 USE_PREPROCESSING: True
+files:
+  result_file_path: duplicates.json
+  new_items_file_path: new_items.txt
+  catalog_file_path: catalog.txt

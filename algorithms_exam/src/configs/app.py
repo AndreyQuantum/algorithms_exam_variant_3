@@ -22,5 +22,5 @@ env_settings = Dynaconf(settings_file=["settings.yml"])
 settings = Settings(
     SIMILARITY_THRESHOLD=env_settings["SIMILARITY_THRESHOLD"],
     USE_PREPROCESSING=env_settings["USE_PREPROCESSING"],
-    files=env_settings["result_file_path"],
+    files=env_settings["files"],
 )

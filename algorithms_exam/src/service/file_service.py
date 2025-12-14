@@ -6,7 +6,7 @@ from algorithms_exam.src.schemas.product import ProductEntity
 
 class FileService:
     def read_catalog(self) -> list[ProductEntity]:
-        return self._parse_product(settings.files.catalog_file_path)
+        return self._parse_file(settings.files.catalog_file_path)
 
     def _parse_file(self, path_to_file: Path) -> list[ProductEntity]:
         with open(path_to_file) as f:
@@ -22,4 +22,4 @@ class FileService:
         return result
 
     def read_new_items(self) -> list[ProductEntity]:
-        return self._parse_product(settings.files.new_items_file_path)
+        return self._parse_file(settings.files.new_items_file_path)

@@ -3,6 +3,7 @@ from os import PathLike
 from dynaconf import Dynaconf
 from pydantic import BaseModel
 
+
 class FileSettings(BaseModel):
     result_file_path: PathLike = "duplicates.json"
     new_items_file_path: PathLike = "new_items.txt"
@@ -13,6 +14,7 @@ class Settings(BaseModel):
     SIMILARITY_THRESHOLD: float
     USE_PREPROCESSING: bool
     files: FileSettings
+
 
 env_settings = Dynaconf(settings_file=["settings.yml"])
 

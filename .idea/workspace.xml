@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="split lint workflow into separate lint and format workflows, update workspace.xml">
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="update workspace.xml and adjust formatting in JaccardService">
+      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_jaccard_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="30" />
+    <option name="cachedIndexableFilesCount" value="36" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -343,7 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765751951477</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add get_similarity method to JaccardService and its parameterized tests">
+      <option name="closed" value="true" />
+      <created>1765753689285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765753689285</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update workspace.xml and adjust formatting in JaccardService">
+      <option name="closed" value="true" />
+      <created>1765753703045</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765753703045</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -365,7 +383,9 @@
     <MESSAGE value="add JaccardService and StringService with normalization logic and associated tests" />
     <MESSAGE value="update workspace.xml with changes related to task management and dependency setup" />
     <MESSAGE value="split lint workflow into separate lint and format workflows, update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="split lint workflow into separate lint and format workflows, update workspace.xml" />
+    <MESSAGE value="add get_similarity method to JaccardService and its parameterized tests" />
+    <MESSAGE value="update workspace.xml and adjust formatting in JaccardService" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml and adjust formatting in JaccardService" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

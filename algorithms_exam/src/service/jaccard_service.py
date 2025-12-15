@@ -2,6 +2,8 @@ class JaccardService:
     shingle_size: int = 3
 
     def get_similarity(self, first: str, second: str) -> float:
+        if first == second:
+            return 1.0
         first_shingles = self._split_text_to_shingles(first)
         second_shingles = self._split_text_to_shingles(second)
         if not first_shingles and not second_shingles:

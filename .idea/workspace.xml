@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/lint.yml" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Update lint workflow and refactor main.py to initialize FileService logic">
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_items.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="36" />
+    <option name="cachedIndexableFilesCount" value="38" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -91,7 +94,7 @@
       <recent name="$PROJECT_DIR$/algorithms_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in andrey-zelentsov">
+  <component name="RunManager" selected="Python.main">
     <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
         <envs />
@@ -136,7 +139,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_exam/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -198,10 +201,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.utest" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -389,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765758151537</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update lint workflow and refactor main.py to initialize FileService logic">
+      <option name="closed" value="true" />
+      <created>1765758644464</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765758644464</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -415,7 +426,8 @@
     <MESSAGE value="update workspace.xml and adjust formatting in JaccardService" />
     <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
     <MESSAGE value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
+    <MESSAGE value="Update lint workflow and refactor main.py to initialize FileService logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update lint workflow and refactor main.py to initialize FileService logic" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -424,9 +436,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithms_exam/src/service/string_service.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

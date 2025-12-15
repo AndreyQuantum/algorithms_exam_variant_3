@@ -14,9 +14,9 @@ def test_parse_file_catalog_parses_txt_into_product_list():
     assert len(products) == 5
     # С учетом текущей реализации name берется как второй токен строки
     assert products[0].id == 1001
-    assert products[0].name == "Смартфон"
+    assert products[0].name == "Смартфон Xiaomi Redmi Note 12 Pro 8/256GB синий"
     assert products[-1].id == 1005
-    assert products[-1].name == "HUAWEI"
+    assert products[-1].name == "HUAWEI Watch GT 4 46mm"
 
 
 def test_parse_file_new_items_parses_txt_into_product_list():
@@ -28,7 +28,7 @@ def test_parse_file_new_items_parses_txt_into_product_list():
     assert all(isinstance(p, Product) for p in products)
     assert len(products) == 5
     assert products[0].id == 2001
-    assert products[0].name == "Xiaomi"
+    assert products[0].name == "Xiaomi Redmi Note 12 Pro 8/256 Синий"
 
 
 def test_read_catalog_expected_to_return_product_list():

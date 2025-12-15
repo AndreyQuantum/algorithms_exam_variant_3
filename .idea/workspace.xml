@@ -4,27 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/lint.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/algorithms_exam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Fix typo in ReadMe.md (Поесли → После)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/schemas/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/schemas/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_stub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicates.json" beforeDir="false" afterPath="$PROJECT_DIR$/duplicates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="38" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,46 +36,184 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="implementation/task_3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndreyQuantum&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AndreyQuantum/algorithms_exam.git&quot;,
+    &quot;accountId&quot;: &quot;d0f587cd-e1b3-4d16-ad7f-e75d62a7b244&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="36qWA6ox9lzYyRUZWuyP4W8zgE0" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Makefile Target.utest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/andrey-zelentsov/PycharmProjects/algorithms_exam&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Makefile Target.lint.executor": "Run",
+    "Makefile Target.run.executor": "Run",
+    "Makefile Target.utest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize.executor": "Run",
+    "Python tests.pytest in andrey-zelentsov.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "implementation/task__3__back",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/andrey-zelentsov/PycharmProjects/algorithms_exam",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithms_exam/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/algorithms_exam/src" />
+      <recent name="$PROJECT_DIR$/algorithms_exam" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="utest" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="utest" workingDirectory="" arguments="">
         <envs />
       </makefile>
       <method v="2" />
     </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms_exam/src/configs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms_exam/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (algorithms_exam)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;algorithms_exam.tests.test_string_service.test_string_service_normalize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in andrey-zelentsov" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (algorithms_exam)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Target.run" />
+      <item itemvalue="Makefile Target.utest" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.pytest in andrey-zelentsov" />
+      <item itemvalue="Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" />
+        <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.utest" />
+        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -92,17 +232,242 @@
       <option name="presentableId" value="Default" />
       <updated>1765734435942</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1765740426858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765740426858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="move some tests">
+      <option name="closed" value="true" />
+      <created>1765740624688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765740624688</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix make utest">
+      <option name="closed" value="true" />
+      <created>1765740684567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765740684567</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1765740953071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765740953071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add README.md">
+      <option name="closed" value="true" />
+      <created>1765741067171</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741067171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add pytest">
+      <option name="closed" value="true" />
+      <created>1765741119142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741119142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init settings.yml">
+      <option name="closed" value="true" />
+      <created>1765741524320</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741524320</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1765741534445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741534445</updated>
+    </task>
+    <task id="LOCAL-00009" summary="+ RESULT_FILE_NAME to settings">
+      <option name="closed" value="true" />
+      <created>1765741647493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765741647494</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix utest">
+      <option name="closed" value="true" />
+      <created>1765742279042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765742279042</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add fileservice">
+      <option name="closed" value="true" />
+      <created>1765743197905</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765743197905</updated>
+    </task>
+    <task id="LOCAL-00012" summary="refactor file handling logic and add tests for FileService">
+      <option name="closed" value="true" />
+      <created>1765744116159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765744116159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="rename ProductEntity to Product throughout the codebase and update related tests">
+      <option name="closed" value="true" />
+      <created>1765744247051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765744247051</updated>
+    </task>
+    <task id="LOCAL-00014" summary="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly">
+      <option name="closed" value="true" />
+      <created>1765748004064</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765748004064</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update workspace.xml with changes related to task management and dependency setup">
+      <option name="closed" value="true" />
+      <created>1765748838831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765748838831</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add JaccardService and StringService with normalization logic and associated tests">
+      <option name="closed" value="true" />
+      <created>1765750934304</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765750934304</updated>
+    </task>
+    <task id="LOCAL-00017" summary="split lint workflow into separate lint and format workflows, update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1765751951477</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765751951477</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add get_similarity method to JaccardService and its parameterized tests">
+      <option name="closed" value="true" />
+      <created>1765753689285</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765753689285</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update workspace.xml and adjust formatting in JaccardService">
+      <option name="closed" value="true" />
+      <created>1765753703045</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765753703045</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add KMPService with prefix function, search methods, and comprehensive parameterized tests">
+      <option name="closed" value="true" />
+      <created>1765757824925</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765757824925</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching.">
+      <option name="closed" value="true" />
+      <created>1765758151537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765758151537</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update lint workflow and refactor main.py to initialize FileService logic">
+      <option name="closed" value="true" />
+      <created>1765758644464</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765758644464</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update string normalization logic, streamline FILTER_KEYWORDS, and enhance associated tests">
+      <option name="closed" value="true" />
+      <created>1765827102801</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765827102801</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix typo in ReadMe.md (Поесли → После)">
+      <option name="closed" value="true" />
+      <created>1765827370639</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1765827370639</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CODE_SMELLS_PROFILE" value="Project Default" />
+    <MESSAGE value="add README.md" />
+    <MESSAGE value="add pytest" />
+    <MESSAGE value="init settings.yml" />
+    <MESSAGE value="update workspace.xml" />
+    <MESSAGE value="+ RESULT_FILE_NAME to settings" />
+    <MESSAGE value="fix utest" />
+    <MESSAGE value="add fileservice" />
+    <MESSAGE value="refactor file handling logic and add tests for FileService" />
+    <MESSAGE value="rename ProductEntity to Product throughout the codebase and update related tests" />
+    <MESSAGE value="switch to poetry for dependency management and execution, update ReadMe and Makefile accordingly" />
+    <MESSAGE value="add string service for normalization and tests" />
+    <MESSAGE value="add JaccardService and StringService with normalization logic and associated tests" />
+    <MESSAGE value="update workspace.xml with changes related to task management and dependency setup" />
+    <MESSAGE value="split lint workflow into separate lint and format workflows, update workspace.xml" />
+    <MESSAGE value="add get_similarity method to JaccardService and its parameterized tests" />
+    <MESSAGE value="update workspace.xml and adjust formatting in JaccardService" />
+    <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
+    <MESSAGE value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
+    <MESSAGE value="Update lint workflow and refactor main.py to initialize FileService logic" />
+    <MESSAGE value="Update string normalization logic, streamline FILTER_KEYWORDS, and enhance associated tests" />
+    <MESSAGE value="Fix typo in ReadMe.md (Поесли → После)" />
+    <MESSAGE value="add comments" />
+    <MESSAGE value="Add comprehensive docstrings to services, schemas, and main.py for improved code clarity" />
+    <MESSAGE value="Enhance documentation across services, refine StringService normalization and keyword filtering logic, and improve code formatting for consistency" />
+    <MESSAGE value="Add docstrings to services and main script for improved clarity and maintainability, adjust formatting in multiple files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docstrings to services and main script for improved clarity and maintainability, adjust formatting in multiple files." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

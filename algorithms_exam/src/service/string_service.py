@@ -1,7 +1,10 @@
 import re
 
+from algorithms_exam.src.service.kmp_service import KMPService
+
 
 class StringService:
+
     FILTER_KEYWORDS = {
         # устройства и электроника
         "смартфон", "телефон", "мобильный", "кнопочный",
@@ -72,7 +75,9 @@ class StringService:
         return text
 
     def _remove_extensive_keywords(self, text: str) -> str:
-        for keyword in self.FILTER_KEYWORDS:
-            if keyword in text:
-                text = text.replace(keyword, "")
+        kmp = KMPService()
+        for pattern in self.FILTER_KEYWORDS:
+            found_indexes_to_remove = kmp.search_all(text, pattern)
+            for indexes in found_indexes_to_remove:
+                text = text[:indexes[0]] + text[indexes[1]:]
         return text

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="update workspace.xml and adjust formatting in JaccardService">
-      <change afterPath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="add KMPService with prefix function, search methods, and comprehensive parameterized tests">
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,27 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Makefile Target.lint.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.run.executor&quot;: &quot;Run&quot;,
-    &quot;Makefile Target.utest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.pytest in andrey-zelentsov.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;implementation/task__3&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/andrey-zelentsov/PycharmProjects/algorithms_exam&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Makefile Target.lint.executor": "Run",
+    "Makefile Target.run.executor": "Run",
+    "Makefile Target.utest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize.executor": "Run",
+    "Python tests.pytest in andrey-zelentsov.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "implementation/task__3",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/andrey-zelentsov/PycharmProjects/algorithms_exam",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -93,12 +91,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in andrey-zelentsov">
-    <configuration name="lint" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="lint" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
     <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
         <envs />
@@ -157,6 +149,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms_exam" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Poetry (algorithms_exam)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;algorithms_exam.tests.test_string_service.test_string_service_normalize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in andrey-zelentsov" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="algorithms_exam" />
       <option name="ENV_FILES" value="" />
@@ -178,19 +189,19 @@
     </configuration>
     <list>
       <item itemvalue="Makefile Target.run" />
-      <item itemvalue="Makefile Target.lint" />
       <item itemvalue="Makefile Target.utest" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python tests.pytest in andrey-zelentsov" />
+      <item itemvalue="Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for algorithms_exam.tests.test_string_service.test_string_service_normalize" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.utest" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Makefile Target.lint" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765753703045</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add KMPService with prefix function, search methods, and comprehensive parameterized tests">
+      <option name="closed" value="true" />
+      <created>1765757824925</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765757824925</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -385,9 +404,21 @@
     <MESSAGE value="split lint workflow into separate lint and format workflows, update workspace.xml" />
     <MESSAGE value="add get_similarity method to JaccardService and its parameterized tests" />
     <MESSAGE value="update workspace.xml and adjust formatting in JaccardService" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml and adjust formatting in JaccardService" />
+    <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithms_exam/src/service/string_service.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

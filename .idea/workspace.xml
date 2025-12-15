@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Update lint workflow and refactor main.py to initialize FileService logic">
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Refactor FileService to support JSON output and improve product parsing logic">
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_items.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765758644464</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactor FileService to support JSON output and improve product parsing logic">
+      <option name="closed" value="true" />
+      <created>1765762267136</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765762267136</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -427,7 +432,9 @@
     <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
     <MESSAGE value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
     <MESSAGE value="Update lint workflow and refactor main.py to initialize FileService logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update lint workflow and refactor main.py to initialize FileService logic" />
+    <MESSAGE value="Implement product similarity calculation using JaccardService, add JSON result output, and update file parsing logic" />
+    <MESSAGE value="Refactor FileService to support JSON output and improve product parsing logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor FileService to support JSON output and improve product parsing logic" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -437,13 +444,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

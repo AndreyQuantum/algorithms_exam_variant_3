@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Update lint workflow and refactor main.py to initialize FileService logic">
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="implementation/task_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +72,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "implementation/task__3",
+    "git-widget-placeholder": "implementation/task__3__back",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/andrey-zelentsov/PycharmProjects/algorithms_exam",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -403,6 +400,17 @@
     <option name="localTasksCounter" value="23" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <MESSAGE value="init" />
@@ -438,12 +446,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
           <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

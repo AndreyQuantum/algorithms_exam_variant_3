@@ -22,6 +22,3 @@ dev = [
     "ruff (>=0.14.9,<0.15.0)",
     "pytest (>=9.0.2,<10.0.0)"
 ]
-
-[tool.ruff.lint.per-file-ignores]
-"poetry_python_template/tests/*" = ["E501"]

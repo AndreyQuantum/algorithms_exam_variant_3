@@ -60,10 +60,7 @@ class KMPService:
         matched_length = 0
 
         for text_index in range(text_length):
-            while (
-                    matched_length > 0
-                    and text[text_index] != pattern[matched_length]
-            ):
+            while matched_length > 0 and text[text_index] != pattern[matched_length]:
                 matched_length = prefix[matched_length - 1]
 
             if text[text_index] == pattern[matched_length]:
@@ -102,10 +99,7 @@ class KMPService:
         matched_length = 0
 
         for text_index in range(text_length):
-            while (
-                    matched_length > 0
-                    and text[text_index] != pattern[matched_length]
-            ):
+            while matched_length > 0 and text[text_index] != pattern[matched_length]:
                 matched_length = prefix[matched_length - 1]
 
             if text[text_index] == pattern[matched_length]:

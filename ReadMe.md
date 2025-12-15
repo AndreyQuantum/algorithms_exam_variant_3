@@ -1,3 +1,10 @@
+# Описание проекта
+
+Исходный код проекта находится в `algorithms_exam/src`
+
+Тесты основных сервисов находятся в `algorithms_exam/tests`
+
+Файл запуска расположен в `algorithms_exam/src/main.py`
 # Запуск
 
 Для запуска алгоритма необходимо установить [poetry](https://python-poetry.org/docs/#installation)
@@ -27,3 +34,4 @@ make run
 | `DYNACONF_SIMILARITY_THRESHOLD` | `SIMILARITY_THRESHOLD` |
 | `DYNACONF_USE_PREPROCESSING`    | `USE_PREPROCESSING`    |
 
+Все переменные валидируются благодаря библиотеке pydantic.

@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Update lint workflow and refactor main.py to initialize FileService logic">
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Fix typo in ReadMe.md (Поесли → После)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/configs/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/schemas/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/schemas/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/file_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/jaccard_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/kmp_service.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/tests/test_string_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/tests/test_stub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicates.json" beforeDir="false" afterPath="$PROJECT_DIR$/duplicates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +408,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765758644464</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update string normalization logic, streamline FILTER_KEYWORDS, and enhance associated tests">
+      <option name="closed" value="true" />
+      <created>1765827102801</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765827102801</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fix typo in ReadMe.md (Поесли → После)">
+      <option name="closed" value="true" />
+      <created>1765827370639</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1765827370639</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,9 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
-    <MESSAGE value="init" />
-    <MESSAGE value="move some tests" />
-    <MESSAGE value="fix make utest" />
     <MESSAGE value="add README.md" />
     <MESSAGE value="add pytest" />
     <MESSAGE value="init settings.yml" />
@@ -435,20 +459,15 @@
     <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
     <MESSAGE value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
     <MESSAGE value="Update lint workflow and refactor main.py to initialize FileService logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update lint workflow and refactor main.py to initialize FileService logic" />
+    <MESSAGE value="Update string normalization logic, streamline FILTER_KEYWORDS, and enhance associated tests" />
+    <MESSAGE value="Fix typo in ReadMe.md (Поесли → После)" />
+    <MESSAGE value="add comments" />
+    <MESSAGE value="Add comprehensive docstrings to services, schemas, and main.py for improved code clarity" />
+    <MESSAGE value="Enhance documentation across services, refine StringService normalization and keyword filtering logic, and improve code formatting for consistency" />
+    <MESSAGE value="Add docstrings to services and main script for improved clarity and maintainability, adjust formatting in multiple files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add docstrings to services and main script for improved clarity and maintainability, adjust formatting in multiple files." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/algorithms_exam/src/main.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

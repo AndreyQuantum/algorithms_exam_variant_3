@@ -4,6 +4,7 @@ from dynaconf import Dynaconf
 from pydantic import BaseModel
 
 
+# Парсинг и валидация конфига из env/файла
 class FileSettings(BaseModel):
     result_file_path: PathLike = "duplicates.json"
     new_items_file_path: PathLike = "new_items.txt"

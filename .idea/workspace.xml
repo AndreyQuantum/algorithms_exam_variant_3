@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="add KMPService with prefix function, search methods, and comprehensive parameterized tests">
-      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/service/string_service.py" afterDir="false" />
+    <list default="true" id="ef81020f-28c0-4eb1-9a2f-f3ac8922a949" name="Changes" comment="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/lint.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms_exam/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms_exam/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -380,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765757824925</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching.">
+      <option name="closed" value="true" />
+      <created>1765758151537</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765758151537</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,7 +414,8 @@
     <MESSAGE value="add get_similarity method to JaccardService and its parameterized tests" />
     <MESSAGE value="update workspace.xml and adjust formatting in JaccardService" />
     <MESSAGE value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add KMPService with prefix function, search methods, and comprehensive parameterized tests" />
+    <MESSAGE value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrate KMPService into StringService for keyword removal logic using efficient pattern matching." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -415,7 +425,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/algorithms_exam/src/service/string_service.py</url>
-          <line>79</line>
+          <line>80</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
